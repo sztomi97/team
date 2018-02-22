@@ -32,10 +32,10 @@ public class Main {
         fields[0].setMovableItem(p);
 
         Player p2 = new Player();
-        fields[20].setMovableItem(p2);
+        fields[3].setMovableItem(p2);
 
         Box b = new Box();
-        fields[3].setMovableItem(b);
+        fields[2].setMovableItem(b);
 
 
         Box b2 = new Box();

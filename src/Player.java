@@ -16,5 +16,7 @@ public class Player extends Movable {
         return true;
     }
 
-
+    public void die(){
+        System.err.println("rip");
+    }
 }
