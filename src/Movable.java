@@ -4,5 +4,10 @@ public abstract class Movable extends FieldElement {
         return onField.moveTo(this, dir);
     }
 
+    public void die(){
+        System.out.println("rip");
+        return;
+    }
+
     public abstract boolean isPlayer();
 }

@@ -5,10 +5,8 @@ public class Player extends Movable {
     }
 
     @Override
-    public boolean move(int dir){
-        return onField.moveTo(this, dir);
-        //System.err.println("p");
-        //return true;                   // azért true mert ha elakad, attól még át tudják tolni rajta a ládát és r.i.p.
+    public boolean move(int dir){       //egyelore ennek igy semmi ertelme, de hatha kell majd kezelgetni valamit ezert overrideoltam
+        return super.move(dir);
     }
 
     @Override
@@ -16,6 +14,7 @@ public class Player extends Movable {
         return true;
     }
 
+    @Override
     public void die(){
         System.err.println("rip");
     }

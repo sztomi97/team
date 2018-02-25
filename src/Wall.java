@@ -3,8 +3,9 @@ public class Wall extends Movable {
     @Override
     public boolean move(int dir) {
 
-        return onField.moveTo(this, dir);
+        return false;
     }
+
 
     @Override
     public boolean isPlayer() {
